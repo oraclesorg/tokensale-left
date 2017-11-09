@@ -60,3 +60,11 @@ Contracts are deployen on Kovan and verified
 - `FlatPricingExt`. The pricing strategy contract. The code of verified [FlatPricingExt is here](https://kovan.etherscan.io/address/0xf175eB9c6Ab88CAaD8b781Fa6c3F2E228bDE7c61#code).
 - `MintedTokenCappedCrowdsaleExt`. The crowdsale contract for a tier. The code of verified [MintedTokenCappedCrowdsaleExt is here](https://kovan.etherscan.io/address/0x88B0C54aa5155d203ec28492DC2d985dD6eCB6E6#code).
 - `NullFinalizeAgentExt`. The finalize agent contract. The example of verified [NullFinalizeAgentExt is here](https://kovan.etherscan.io/address/0xc328C8A5e9011819f92D4505e027858a60dd65Ef#code).
+
+## Deployment stage
+
+After all of the contracts are deployed next methods are executed at deployment stage:
+- `setMintAgent` - sets `finalizeAgent` contract and crowdsale contract addresses as mint agents of token contract.
+- `setFinalizeAgent` - sets `finalizeAgent` contract address as a finalize agent of the crowdsale contract.
+- `setReleaseAgent` - sets `finalizeAgent` contract address as a release agent of token contract.
+- `transferOwnership` - transfers ownership of token contract to the address that holds collected ether, which filled at step 2 of ICO Wizard.
