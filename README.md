@@ -23,7 +23,7 @@ Parameters of ICO Wizard used to generate the instance of token contract for the
 | Reserved tokens | None         |
 
 Remarks:
-- Res
+- "Reserved tokens - None" no % or fixed tokens 
 - For that crowdsale created tokens will not be movable after the crowdsale. They will only indicate purchased amounts of tokens. Actual tokens will be created on the right side of the bridge on Oracles Network. 
 
 ### Crowdsale
