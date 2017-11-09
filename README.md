@@ -13,7 +13,7 @@ During each buy of tokens, the bridge will listen to events emitted by this smar
 
 ### Token
 
-Parameters of ICO Wizard used to generate the instance of token contract for the audit
+Parameters of ICO Wizard used to generate the instance of token contract for the audit.
 
 | Field           | Value        |
 |-----------------|--------------|
@@ -23,11 +23,12 @@ Parameters of ICO Wizard used to generate the instance of token contract for the
 | Reserved tokens | None         |
 
 Remarks:
-For that crowdsale created tokens will not be movable after the crowdsale. They will only indicate purchased amounts of tokens. Actual tokens will be created on the right side of the bridge on Oracles Network.
+- Res
+- For that crowdsale created tokens will not be movable after the crowdsale. They will only indicate purchased amounts of tokens. Actual tokens will be created on the right side of the bridge on Oracles Network. 
 
 ### Crowdsale
 
-Parameters of ICO Wizard used to generate the instance of crowdsale for the audit
+Parameters of ICO Wizard used to generate the instance of crowdsale for the audit.
 
 | Field              	| Value                      	|
 |--------------------	|---------------------------	|
@@ -41,5 +42,7 @@ Parameters of ICO Wizard used to generate the instance of crowdsale for the audi
 
 Remarks:
 
-- "Allow modifying - No" means that rate, supply, start date, end date are not modifiable
-- "Disable whitelist - No" means that whitelist is enable and only whitelisted accounts could participate in the crowdsale
+- Rate - how many tokens for 1 ETH
+- Supply - max cap of tokens. Token is mintable. Unsold tokens will not be produced.
+- "Allow modifying - No" means that rate, supply, start date, end date are not modifiable.
+- "Disable whitelist - No" means that whitelist is enable and only whitelisted accounts could participate in the crowdsale.
