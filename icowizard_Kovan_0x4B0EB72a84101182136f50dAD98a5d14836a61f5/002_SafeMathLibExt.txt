@@ -1,0 +1,31 @@
+Token name: POA Network
+
+Token ticker: POA
+
+Token decimals: 0
+
+Multisig wallet address: 0x00dB9af45C6f241432F2cBE412c6969cB7778d98
+
+*****************************
+
+Crowdsale rate: 4241
+
+Crowdsale start time: 2017-12-01T19:00:00 (GMT + 3)
+
+Crowdsale end time: 2017-12-16T01:00:00 (GMT + 3)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+SafeMathLib library name: SafeMathLibExt
+
+SafeMathLib library address: 0x6BEE8375acB342F24F2a23AeC1e02b032E3a4FfA
+
+*****************************
+
+****SafeMathLib contract ABI:**** 
+
+[{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"times","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function","signature":"0x1d3b9edf"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"plus","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function","signature":"0x66098d4f"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"divides","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function","signature":"0xa12f69e0"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"minus","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function","signature":"0xf4f3bdc1"}]

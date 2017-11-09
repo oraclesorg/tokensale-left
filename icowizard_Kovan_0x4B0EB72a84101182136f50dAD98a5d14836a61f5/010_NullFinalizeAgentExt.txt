@@ -1,0 +1,35 @@
+Token name: POA Network
+
+Token ticker: POA
+
+Token decimals: 0
+
+Multisig wallet address: 0x00dB9af45C6f241432F2cBE412c6969cB7778d98
+
+*****************************
+
+Crowdsale rate: 4241
+
+Crowdsale start time: 2017-12-01T19:00:00 (GMT + 3)
+
+Crowdsale end time: 2017-12-16T01:00:00 (GMT + 3)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Null finalize agent contract name: NullFinalizeAgentExt
+
+Null finalize agent contract address for Tier 1: 0x42afe53C8838A642e3466068685127409fB6b8A2
+
+*****************************
+
+****Null Finalize agent contract ABI:**** 
+
+[{"constant":false,"inputs":[],"name":"finalizeCrowdsale","outputs":[],"payable":false,"type":"function","signature":"0x0bf318a3"},{"constant":true,"inputs":[],"name":"isFinalizeAgent","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","signature":"0x614cb904"},{"constant":true,"inputs":[],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","signature":"0x82771c8e"},{"constant":true,"inputs":[],"name":"crowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function","signature":"0x9c1e03a0"},{"inputs":[{"name":"_crowdsale","type":"address"}],"payable":false,"type":"constructor","signature":"constructor"}]
+
+****Null Finalize agent contract ABI encoded constructor arguments for Tier 1:**** 
+
+000000000000000000000000b61c9f8a336e79f922e7d9226d570c92a4b6dbb5
