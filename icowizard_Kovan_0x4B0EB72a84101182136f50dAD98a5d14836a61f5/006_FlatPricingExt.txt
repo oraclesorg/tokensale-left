@@ -1,0 +1,35 @@
+Token name: POA Network
+
+Token ticker: POA
+
+Token decimals: 0
+
+Multisig wallet address: 0x00dB9af45C6f241432F2cBE412c6969cB7778d98
+
+*****************************
+
+Crowdsale rate: 4241
+
+Crowdsale start time: 2017-12-01T19:00:00 (GMT + 3)
+
+Crowdsale end time: 2017-12-16T01:00:00 (GMT + 3)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Pricing strategy contract name: FlatPricingExt
+
+Pricing strategy contract address for Tier 1: 0x698e1403807010944fBc0cD5b5070197292cd36D
+
+*****************************
+
+****Pricing strategy contract ABI:**** 
+
+[{"constant":true,"inputs":[],"name":"isPricingStrategy","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","signature":"0x04bbc255"},{"constant":true,"inputs":[],"name":"isUpdatable","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","signature":"0x0e1d2ec8"},{"constant":true,"inputs":[{"name":"value","type":"uint256"},{"name":"weiRaised","type":"uint256"},{"name":"tokensSold","type":"uint256"},{"name":"msgSender","type":"address"},{"name":"decimals","type":"uint256"}],"name":"calculatePrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function","signature":"0x18a4155e"},{"constant":true,"inputs":[],"name":"lastCrowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function","signature":"0x4f97f97f"},{"constant":false,"inputs":[{"name":"addr","type":"address"}],"name":"setLastCrowdsale","outputs":[],"payable":false,"type":"function","signature":"0x57dc2658"},{"constant":false,"inputs":[{"name":"newOneTokenInWei","type":"uint256"}],"name":"updateRate","outputs":[],"payable":false,"type":"function","signature":"0x69ea1771"},{"constant":true,"inputs":[],"name":"oneTokenInWei","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function","signature":"0x84e3ac94"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function","signature":"0x8da5cb5b"},{"constant":true,"inputs":[{"name":"crowdsale","type":"address"}],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","signature":"0x8e768288"},{"constant":true,"inputs":[{"name":"purchaser","type":"address"}],"name":"isPresalePurchase","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function","signature":"0xf14ae17d"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function","signature":"0xf2fde38b"},{"inputs":[{"name":"_oneTokenInWei","type":"uint256"},{"name":"_isUpdatable","type":"bool"}],"payable":false,"type":"constructor","signature":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"newOneTokenInWei","type":"uint256"}],"name":"RateChanged","type":"event","signature":"0x595a30f13a69b616c4d568e2a2b7875fdfe86e4300a049953c76ee278f8f3f10"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event","signature":"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"}]
+
+****Pricing strategy contract ABI encoded constructor arguments for Tier 1:**** 
+
+0000000000000000000000000000000000000000000000000000d673f086b1960000000000000000000000000000000000000000000000000000000000000000
