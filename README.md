@@ -7,7 +7,7 @@ Contracts are based on [modified](https://github.com/oraclesorg/ico-audit) Token
 ### Memo about cross chain crowdsale 
 
 These contracts are used in cross chain crowdsale and represent login on the left side of the bridge.
-During each buy of tokens, the bridge will listen to events emitted by this smart contract and create _additional_ tokens on the right side of the bridge. These tokens will be exchanged for coins after crowdsale end on the right side of the bridge using a [Treasury](https://github.com/oraclesorg/treasury) contract.
+During each buy of tokens, the bridge will listen to events emitted by this smart contract and create _additional_ tokens on the right side of the bridge. These tokens will be exchanged for coins after crowdsale end on the right side of the bridge using a [Treasury](https://github.com/oraclesorg/treasury) contract. Right side of the bridge is not a subject of this audit.
 
 ## Parameters
 
