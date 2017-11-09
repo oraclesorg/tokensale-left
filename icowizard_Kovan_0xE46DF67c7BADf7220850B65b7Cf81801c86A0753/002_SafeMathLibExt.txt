@@ -2,7 +2,7 @@ Token name: POA Network
 
 Token ticker: POA
 
-Token decimals: 0
+Token decimals: 18
 
 Multisig wallet address: 0x00dB9af45C6f241432F2cBE412c6969cB7778d98
 
@@ -22,7 +22,7 @@ Is optimization enabled?: true
 
 SafeMathLib library name: SafeMathLibExt
 
-SafeMathLib library address: 0x6BEE8375acB342F24F2a23AeC1e02b032E3a4FfA
+SafeMathLib library address: 0x4b360178A24E30eF5e526075688462f58839f35d
 
 *****************************
 

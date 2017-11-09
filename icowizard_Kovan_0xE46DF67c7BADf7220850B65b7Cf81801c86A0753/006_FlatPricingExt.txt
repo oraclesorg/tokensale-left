@@ -2,7 +2,7 @@ Token name: POA Network
 
 Token ticker: POA
 
-Token decimals: 0
+Token decimals: 18
 
 Multisig wallet address: 0x00dB9af45C6f241432F2cBE412c6969cB7778d98
 
@@ -22,7 +22,7 @@ Is optimization enabled?: true
 
 Pricing strategy contract name: FlatPricingExt
 
-Pricing strategy contract address for Tier 1: 0x698e1403807010944fBc0cD5b5070197292cd36D
+Pricing strategy contract address for Tier 1: 0xf175eB9c6Ab88CAaD8b781Fa6c3F2E228bDE7c61
 
 *****************************
 
