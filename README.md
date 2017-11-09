@@ -46,3 +46,10 @@ Remarks:
 - Supply - max cap of tokens. Token is mintable. Unsold tokens will not be produced.
 - "Allow modifying - No" means that rate, supply, start date, end date are not modifiable.
 - "Disable whitelist - No" means that whitelist is enable and only whitelisted accounts could participate in the crowdsale.
+
+Contracts at Kovan:
+- `SafeMathLibExt`. The example of verified [SafeMathLibExt is here](https://kovan.etherscan.io/address/0x6BEE8375acB342F24F2a23AeC1e02b032E3a4FfA#code).
+- `CrowdsaleTokenExt`. The token contract. The example of verified [CrowdsaleTokenExt is here](https://kovan.etherscan.io/address/0x4B0EB72a84101182136f50dAD98a5d14836a61f5#code).
+- `FlatPricingExt`. The pricing strategy contract. The example of verified [FlatPricingExt is here](https://kovan.etherscan.io/address/0x698e1403807010944fBc0cD5b5070197292cd36D#code).
+- `MintedTokenCappedCrowdsaleExt`. The crowdsale contract for a tier. The example of verified [MintedTokenCappedCrowdsaleExt is here](https://kovan.etherscan.io/address/0xb61c9f8a336e79f922e7D9226D570C92A4B6dBB5#code).
+- `NullFinalizeAgentExt`. The finalize agent contract. The example of verified [NullFinalizeAgentExt is here](https://kovan.etherscan.io/address/0x42afe53C8838A642e3466068685127409fB6b8A2#code).
