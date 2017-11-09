@@ -12,7 +12,7 @@ Parameters of ICO Wizard used to generate the instance of token contract for the
 
 | Field           | Value        |
 |-----------------|--------------|
-| Token name      | POA Networks |
+| Token name      | POA Network  |
 | Token Ticker    | POA          |
 | Decimals        | 0            |
 | Reserved tokens | None         |
