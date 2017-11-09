@@ -50,10 +50,18 @@ Remarks:
 - "Allow modifying - No" means that rate, supply, start date, end date are not modifiable.
 - "Disable whitelist - No" means that whitelist is enable and only whitelisted accounts could participate in the crowdsale.
 
-## Deployed contracts
+## Source code and deployed contracts
 
 Source code for code audit is located in [/icowizard_Kovan_0xE46DF67c7BADf7220850B65b7Cf81801c86A0753/](https://github.com/oraclesorg/tokensale-left/tree/master/icowizard_Kovan_0xE46DF67c7BADf7220850B65b7Cf81801c86A0753) folder of the repository
 
+###  Files structure
+
+Files have prefixes corresponding to order of execution, e.g. a file with prefix `001_` will be deployed before a file with prefix `002_`.
+
+A `.sol` file contain contract code.
+A `.txt` file contain metadata
+
+### Deployed contracts
 Contracts are deployen on Kovan and verified 
 - `SafeMathLibExt`. The code of verified [SafeMathLibExt is here](https://kovan.etherscan.io/address/0x4b360178A24E30eF5e526075688462f58839f35d#code).
 - `CrowdsaleTokenExt`. The token contract. The code of verified [CrowdsaleTokenExt is here](https://kovan.etherscan.io/address/0xE46DF67c7BADf7220850B65b7Cf81801c86A0753#code).
