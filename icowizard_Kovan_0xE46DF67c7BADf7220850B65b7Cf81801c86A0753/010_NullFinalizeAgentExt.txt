@@ -2,7 +2,7 @@ Token name: POA Network
 
 Token ticker: POA
 
-Token decimals: 0
+Token decimals: 18
 
 Multisig wallet address: 0x00dB9af45C6f241432F2cBE412c6969cB7778d98
 
@@ -22,7 +22,7 @@ Is optimization enabled?: true
 
 Null finalize agent contract name: NullFinalizeAgentExt
 
-Null finalize agent contract address for Tier 1: 0x42afe53C8838A642e3466068685127409fB6b8A2
+Null finalize agent contract address for Tier 1: 0xc328C8A5e9011819f92D4505e027858a60dd65Ef
 
 *****************************
 
@@ -32,4 +32,4 @@ Null finalize agent contract address for Tier 1: 0x42afe53C8838A642e346606868512
 
 ****Null Finalize agent contract ABI encoded constructor arguments for Tier 1:**** 
 
-000000000000000000000000b61c9f8a336e79f922e7d9226d570c92a4b6dbb5
+00000000000000000000000088b0c54aa5155d203ec28492dc2d985dd6ecb6e6

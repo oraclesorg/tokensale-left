@@ -48,8 +48,8 @@ Remarks:
 - "Disable whitelist - No" means that whitelist is enable and only whitelisted accounts could participate in the crowdsale.
 
 Contracts at Kovan:
-- `SafeMathLibExt`. The example of verified [SafeMathLibExt is here](https://kovan.etherscan.io/address/0x6BEE8375acB342F24F2a23AeC1e02b032E3a4FfA#code).
-- `CrowdsaleTokenExt`. The token contract. The example of verified [CrowdsaleTokenExt is here](https://kovan.etherscan.io/address/0x4B0EB72a84101182136f50dAD98a5d14836a61f5#code).
-- `FlatPricingExt`. The pricing strategy contract. The example of verified [FlatPricingExt is here](https://kovan.etherscan.io/address/0x698e1403807010944fBc0cD5b5070197292cd36D#code).
-- `MintedTokenCappedCrowdsaleExt`. The crowdsale contract for a tier. The example of verified [MintedTokenCappedCrowdsaleExt is here](https://kovan.etherscan.io/address/0xb61c9f8a336e79f922e7D9226D570C92A4B6dBB5#code).
-- `NullFinalizeAgentExt`. The finalize agent contract. The example of verified [NullFinalizeAgentExt is here](https://kovan.etherscan.io/address/0x42afe53C8838A642e3466068685127409fB6b8A2#code).
+- `SafeMathLibExt`. The example of verified [SafeMathLibExt is here](https://kovan.etherscan.io/address/0x4b360178A24E30eF5e526075688462f58839f35d#code).
+- `CrowdsaleTokenExt`. The token contract. The example of verified [CrowdsaleTokenExt is here](https://kovan.etherscan.io/address/0xE46DF67c7BADf7220850B65b7Cf81801c86A0753#code).
+- `FlatPricingExt`. The pricing strategy contract. The example of verified [FlatPricingExt is here](https://kovan.etherscan.io/address/0xf175eB9c6Ab88CAaD8b781Fa6c3F2E228bDE7c61#code).
+- `MintedTokenCappedCrowdsaleExt`. The crowdsale contract for a tier. The example of verified [MintedTokenCappedCrowdsaleExt is here](https://kovan.etherscan.io/address/0x88B0C54aa5155d203ec28492DC2d985dD6eCB6E6#code).
+- `NullFinalizeAgentExt`. The finalize agent contract. The example of verified [NullFinalizeAgentExt is here](https://kovan.etherscan.io/address/0xc328C8A5e9011819f92D4505e027858a60dd65Ef#code).
